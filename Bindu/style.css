@@ -27,7 +27,15 @@
 section.custom-header nav ul a {
   font-size: 14px !important;
 }
-
+nav.navbar.navbar-expand-lg.bg-white.shadow-sm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 .navbar-brand img {
   height: 40px;
 }
